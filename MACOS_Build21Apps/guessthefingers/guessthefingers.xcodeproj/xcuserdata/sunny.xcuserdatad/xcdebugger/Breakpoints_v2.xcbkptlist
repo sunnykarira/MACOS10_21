@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "guessthefingers/ViewController.swift"
+            timestampString = "525206267.98791"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "guessthefingers.ViewController.answer.setter : Swift.Bool"
+                  moduleName = "guessthefingers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/VMware%20Shared%20Folders/Learning%20Resources/Mega/Shared%20Projects/OSXAPPS/MACOS_Build21Apps/guessthefingers/guessthefingers/ViewController.swift"
+                  timestampString = "525206276.155978"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "guessthefingers.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; guessthefingers.ViewController"
+                  moduleName = "guessthefingers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/VMware%20Shared%20Folders/Learning%20Resources/Mega/Shared%20Projects/OSXAPPS/MACOS_Build21Apps/guessthefingers/guessthefingers/ViewController.swift"
+                  timestampString = "525206276.162542"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "guessthefingers.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;guessthefingers.ViewController&gt;"
+                  moduleName = "guessthefingers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/VMware%20Shared%20Folders/Learning%20Resources/Mega/Shared%20Projects/OSXAPPS/MACOS_Build21Apps/guessthefingers/guessthefingers/ViewController.swift"
+                  timestampString = "525206276.168199"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "guessthefingers/ViewController.swift"
+            timestampString = "525207396.538912"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "guessButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
