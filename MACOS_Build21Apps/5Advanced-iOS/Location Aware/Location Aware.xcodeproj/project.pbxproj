@@ -7,103 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3BF71B71F5486A80014F648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF71B61F5486A80014F648 /* AppDelegate.swift */; };
-		A3BF71B91F5486A80014F648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF71B81F5486A80014F648 /* ViewController.swift */; };
-		A3BF71BC1F5486A80014F648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BF71BA1F5486A80014F648 /* Main.storyboard */; };
-		A3BF71BE1F5486A80014F648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BF71BD1F5486A80014F648 /* Assets.xcassets */; };
-		A3BF71C11F5486A80014F648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BF71BF1F5486A80014F648 /* LaunchScreen.storyboard */; };
-		A3BF71C91F54877B0014F648 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BF71C81F54877B0014F648 /* grid.png */; };
+		A3A6C8061F55F8620090C8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6C8051F55F8620090C8C6 /* AppDelegate.swift */; };
+		A3A6C8081F55F8620090C8C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A6C8071F55F8620090C8C6 /* ViewController.swift */; };
+		A3A6C80B1F55F8620090C8C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A6C8091F55F8620090C8C6 /* Main.storyboard */; };
+		A3A6C80D1F55F8630090C8C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A6C80C1F55F8630090C8C6 /* Assets.xcassets */; };
+		A3A6C8101F55F8630090C8C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A6C80E1F55F8630090C8C6 /* LaunchScreen.storyboard */; };
+		A3A6C8191F55F9D30090C8C6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A6C8181F55F9D30090C8C6 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A3BF71B31F5486A80014F648 /* tictactoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tictactoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3BF71B61F5486A80014F648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A3BF71B81F5486A80014F648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A3BF71BB1F5486A80014F648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3BF71BD1F5486A80014F648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3BF71C01F5486A80014F648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A3BF71C21F5486A80014F648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3BF71C81F54877B0014F648 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		A3A6C8021F55F8620090C8C6 /* Location Aware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Aware.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A6C8051F55F8620090C8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3A6C8071F55F8620090C8C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3A6C80A1F55F8620090C8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3A6C80C1F55F8630090C8C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3A6C80F1F55F8630090C8C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3A6C8111F55F8630090C8C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A6C8181F55F9D30090C8C6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A3BF71B01F5486A80014F648 /* Frameworks */ = {
+		A3A6C7FF1F55F8620090C8C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A6C8191F55F9D30090C8C6 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A3BF71AA1F5486A70014F648 = {
+		A3A6C7F91F55F8620090C8C6 = {
 			isa = PBXGroup;
 			children = (
-				A3BF71B51F5486A80014F648 /* tictactoe */,
-				A3BF71B41F5486A80014F648 /* Products */,
+				A3A6C8041F55F8620090C8C6 /* Location Aware */,
+				A3A6C8031F55F8620090C8C6 /* Products */,
+				A3A6C8171F55F9D20090C8C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A3BF71B41F5486A80014F648 /* Products */ = {
+		A3A6C8031F55F8620090C8C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3BF71B31F5486A80014F648 /* tictactoe.app */,
+				A3A6C8021F55F8620090C8C6 /* Location Aware.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A3BF71B51F5486A80014F648 /* tictactoe */ = {
+		A3A6C8041F55F8620090C8C6 /* Location Aware */ = {
 			isa = PBXGroup;
 			children = (
-				A3BF71B61F5486A80014F648 /* AppDelegate.swift */,
-				A3BF71B81F5486A80014F648 /* ViewController.swift */,
-				A3BF71BA1F5486A80014F648 /* Main.storyboard */,
-				A3BF71C81F54877B0014F648 /* grid.png */,
-				A3BF71BD1F5486A80014F648 /* Assets.xcassets */,
-				A3BF71BF1F5486A80014F648 /* LaunchScreen.storyboard */,
-				A3BF71C21F5486A80014F648 /* Info.plist */,
+				A3A6C8051F55F8620090C8C6 /* AppDelegate.swift */,
+				A3A6C8071F55F8620090C8C6 /* ViewController.swift */,
+				A3A6C8091F55F8620090C8C6 /* Main.storyboard */,
+				A3A6C80C1F55F8630090C8C6 /* Assets.xcassets */,
+				A3A6C80E1F55F8630090C8C6 /* LaunchScreen.storyboard */,
+				A3A6C8111F55F8630090C8C6 /* Info.plist */,
 			);
-			path = tictactoe;
+			path = "Location Aware";
+			sourceTree = "<group>";
+		};
+		A3A6C8171F55F9D20090C8C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3A6C8181F55F9D30090C8C6 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3BF71B21F5486A80014F648 /* tictactoe */ = {
+		A3A6C8011F55F8620090C8C6 /* Location Aware */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3BF71C51F5486A80014F648 /* Build configuration list for PBXNativeTarget "tictactoe" */;
+			buildConfigurationList = A3A6C8141F55F8630090C8C6 /* Build configuration list for PBXNativeTarget "Location Aware" */;
 			buildPhases = (
-				A3BF71AF1F5486A80014F648 /* Sources */,
-				A3BF71B01F5486A80014F648 /* Frameworks */,
-				A3BF71B11F5486A80014F648 /* Resources */,
+				A3A6C7FE1F55F8620090C8C6 /* Sources */,
+				A3A6C7FF1F55F8620090C8C6 /* Frameworks */,
+				A3A6C8001F55F8620090C8C6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = tictactoe;
-			productName = tictactoe;
-			productReference = A3BF71B31F5486A80014F648 /* tictactoe.app */;
+			name = "Location Aware";
+			productName = "Location Aware";
+			productReference = A3A6C8021F55F8620090C8C6 /* Location Aware.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A3BF71AB1F5486A70014F648 /* Project object */ = {
+		A3A6C7FA1F55F8620090C8C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = sunny;
 				TargetAttributes = {
-					A3BF71B21F5486A80014F648 = {
+					A3A6C8011F55F8620090C8C6 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A3BF71AE1F5486A70014F648 /* Build configuration list for PBXProject "tictactoe" */;
+			buildConfigurationList = A3A6C7FD1F55F8620090C8C6 /* Build configuration list for PBXProject "Location Aware" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,55 +120,54 @@
 				en,
 				Base,
 			);
-			mainGroup = A3BF71AA1F5486A70014F648;
-			productRefGroup = A3BF71B41F5486A80014F648 /* Products */;
+			mainGroup = A3A6C7F91F55F8620090C8C6;
+			productRefGroup = A3A6C8031F55F8620090C8C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3BF71B21F5486A80014F648 /* tictactoe */,
+				A3A6C8011F55F8620090C8C6 /* Location Aware */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A3BF71B11F5486A80014F648 /* Resources */ = {
+		A3A6C8001F55F8620090C8C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3BF71C11F5486A80014F648 /* LaunchScreen.storyboard in Resources */,
-				A3BF71C91F54877B0014F648 /* grid.png in Resources */,
-				A3BF71BE1F5486A80014F648 /* Assets.xcassets in Resources */,
-				A3BF71BC1F5486A80014F648 /* Main.storyboard in Resources */,
+				A3A6C8101F55F8630090C8C6 /* LaunchScreen.storyboard in Resources */,
+				A3A6C80D1F55F8630090C8C6 /* Assets.xcassets in Resources */,
+				A3A6C80B1F55F8620090C8C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A3BF71AF1F5486A80014F648 /* Sources */ = {
+		A3A6C7FE1F55F8620090C8C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3BF71B91F5486A80014F648 /* ViewController.swift in Sources */,
-				A3BF71B71F5486A80014F648 /* AppDelegate.swift in Sources */,
+				A3A6C8081F55F8620090C8C6 /* ViewController.swift in Sources */,
+				A3A6C8061F55F8620090C8C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A3BF71BA1F5486A80014F648 /* Main.storyboard */ = {
+		A3A6C8091F55F8620090C8C6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A3BF71BB1F5486A80014F648 /* Base */,
+				A3A6C80A1F55F8620090C8C6 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A3BF71BF1F5486A80014F648 /* LaunchScreen.storyboard */ = {
+		A3A6C80E1F55F8630090C8C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A3BF71C01F5486A80014F648 /* Base */,
+				A3A6C80F1F55F8630090C8C6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +175,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A3BF71C31F5486A80014F648 /* Debug */ = {
+		A3A6C8121F55F8630090C8C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +225,7 @@
 			};
 			name = Debug;
 		};
-		A3BF71C41F5486A80014F648 /* Release */ = {
+		A3A6C8131F55F8630090C8C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,25 +268,25 @@
 			};
 			name = Release;
 		};
-		A3BF71C61F5486A80014F648 /* Debug */ = {
+		A3A6C8151F55F8630090C8C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = tictactoe/Info.plist;
+				INFOPLIST_FILE = "Location Aware/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.topdev.tictactoe;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.topdev.Location-Aware";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		A3BF71C71F5486A80014F648 /* Release */ = {
+		A3A6C8161F55F8630090C8C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = tictactoe/Info.plist;
+				INFOPLIST_FILE = "Location Aware/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.topdev.tictactoe;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.topdev.Location-Aware";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -287,24 +295,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3BF71AE1F5486A70014F648 /* Build configuration list for PBXProject "tictactoe" */ = {
+		A3A6C7FD1F55F8620090C8C6 /* Build configuration list for PBXProject "Location Aware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3BF71C31F5486A80014F648 /* Debug */,
-				A3BF71C41F5486A80014F648 /* Release */,
+				A3A6C8121F55F8630090C8C6 /* Debug */,
+				A3A6C8131F55F8630090C8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3BF71C51F5486A80014F648 /* Build configuration list for PBXNativeTarget "tictactoe" */ = {
+		A3A6C8141F55F8630090C8C6 /* Build configuration list for PBXNativeTarget "Location Aware" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3BF71C61F5486A80014F648 /* Debug */,
-				A3BF71C71F5486A80014F648 /* Release */,
+				A3A6C8151F55F8630090C8C6 /* Debug */,
+				A3A6C8161F55F8630090C8C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A3BF71AB1F5486A70014F648 /* Project object */;
+	rootObject = A3A6C7FA1F55F8620090C8C6 /* Project object */;
 }
